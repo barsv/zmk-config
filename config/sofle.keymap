@@ -15,20 +15,6 @@
 #define RAISE 2
 #define ADJUST 3
 
-&nice_view_spi {
-    cs-gpios = <&pro_micro 0 GPIO_ACTIVE_HIGH>;
-};
-
-//&left_encoder {
-//    a-gpios = <&pro_micro 16 GPIO_ACTIVE_HIGH>;
-//    b-gpios = <&pro_micro 10 GPIO_ACTIVE_HIGH>;
-//};
-//
-//&right_encoder {
-//    a-gpios = <&pro_micro 10 GPIO_ACTIVE_HIGH>;
-//    b-gpios = <&pro_micro 16 GPIO_ACTIVE_HIGH>;
-//};
-
 / {
 
    // Activate ADJUST layer by pressing raise and lower
