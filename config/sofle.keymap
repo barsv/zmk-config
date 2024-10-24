@@ -131,10 +131,10 @@
 // |       | UNDO | CUT  | COPY  | PASTE |      |      |  |      | PGDN |  HOME  |       |  END   |       |       |
 //                |      |       |       |      |      |  |      |      |        |       |        |
             bindings = <
-&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                  &trans    &trans       &trans    &trans        &to DEFAULT &tog RAISE
-&trans     &kp INS      &kp PSCRN    &kp K_CMENU  &trans       &trans                        &kp PG_UP &kp LC(LEFT) &trans    &kp LC(RIGHT) &trans      &kp ESC 
-&trans     &kp LALT     &kp LCTRL    &kp LSHFT    &trans       &kp CLCK                      &kp LEFT  &kp DOWN     &kp UP    &kp RIGHT     &kp DEL     &kp RET 
-&trans     &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &trans        &trans  &trans  &kp PG_DN &kp HOME     &trans    &kp END       &trans      &trans
+&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                  &trans    &trans       &trans    &trans        &to BASE  &tog RAISE
+&trans     &kp INS      &kp PSCRN    &kp K_CMENU  &trans       &trans                        &kp PG_UP &kp LC(LEFT) &trans    &kp LC(RIGHT) &trans    &kp ESC 
+&trans     &kp LALT     &kp LCTRL    &kp LSHFT    &trans       &kp CLCK                      &kp LEFT  &kp DOWN     &kp UP    &kp RIGHT     &kp DEL   &kp RET 
+&trans     &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &trans        &trans  &trans  &kp PG_DN &kp HOME     &trans    &kp END       &trans    &trans
                         &trans       &trans       &trans       &trans        &trans  &trans  &trans    &trans       &trans    &trans
             >;
 
